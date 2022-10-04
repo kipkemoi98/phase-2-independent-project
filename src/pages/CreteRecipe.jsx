@@ -39,7 +39,7 @@ export default function CreteRecipe() {
     }
   return (
     <div className="container">
-      <h1>Create Recipe</h1>
+      <h1>Create Recipe Form</h1>
       <form onSubmit={postRecipe } className="form-center">
         <label>Name:</label>
         <input type="text" name="name" />
