@@ -16,7 +16,7 @@ export default function CreteRecipe() {
       
     };
     const response = await fetch(
-      "https://boiling-hollows-58510.herokuapp.com/recipe",
+      "https://developer.edamam.com/edamam-docs-recipe-api",
       {
         method: "POST",
         headers: {
