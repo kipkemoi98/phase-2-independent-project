@@ -27,9 +27,7 @@ export default function CreteRecipe() {
     );
     const data = await response.json();
     console.log(data);
-    // if successful, redirect to the recipe page
   };
-//clear form after submit
     const clearForm = (e) => {
         e.target.name.value = "";
         e.target.ingredients.value = "";

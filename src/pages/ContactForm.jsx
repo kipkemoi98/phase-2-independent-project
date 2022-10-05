@@ -1,5 +1,4 @@
 export default function ContactForm() {
-  //styles for the form
   const container = {
     width: "500px",
     margin: "0 auto",

@@ -21,7 +21,7 @@ export default function LandingPage() {
       </div>
       <div className="landing-page-image">
         <img
-          src={process.env.PUBLIC_URL + "/assets/images/landing.svg"}
+          src={process.env.PUBLIC_URL + "../public/assets/images/5565304-98810d6be292402196bbd5c8f228b8c9.webp"}
           alt="recipe"
         />
       </div>
