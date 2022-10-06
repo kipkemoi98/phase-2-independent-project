@@ -20,8 +20,8 @@ export default function LandingPage() {
       </div>
       <div className="landing-page-image">
         <img
-          src={process.env.PUBLIC_URL + "/assets/images/landing.svg"}
-          alt="recipe"
+          src={process.env.PUBLIC_URL + "/assets/images/public/assets/images/istockphoto-1320857678-170667a.jpg"}
+          alt=""
         />
       </div>
     </div>
