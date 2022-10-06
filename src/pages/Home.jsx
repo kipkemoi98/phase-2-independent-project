@@ -10,7 +10,7 @@ export default function LandingPage() {
       <div className="landing-page-content">
         <h1>Welcome to Recipe Book</h1>
         <p>
-          This is a recipe book app that allows you to create, and Read recipes
+          This is a recipe app that allows you to create, and Read recipes
           from others
         </p>
         <p>To create a recipe, click the button below.</p>
