@@ -8,12 +8,12 @@ export default function LandingPage() {
   return (
     <div className="landing-page">
       <div className="landing-page-content">
-        <h1>Welcome to Recipe Book</h1>
+        <h1>Welcome to Recipe App</h1>
         <p>
           This is a recipe app that allows you to create, and Read recipes
           from others
         </p>
-        <p>To create a recipe, click the button below.</p>
+        <p>Create Recipes by clicking the button.</p>
         <button className="btn" onClick={routeChange}>
           Create Recipe
         </button>
