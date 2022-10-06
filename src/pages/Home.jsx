@@ -1,4 +1,3 @@
-//create landing page
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
 export default function LandingPage() {
@@ -21,7 +20,7 @@ export default function LandingPage() {
       </div>
       <div className="landing-page-image">
         <img
-          src={process.env.PUBLIC_URL + "../public/assets/images/5565304-98810d6be292402196bbd5c8f228b8c9.webp"}
+          src={process.env.PUBLIC_URL + "/assets/images/landing.svg"}
           alt="recipe"
         />
       </div>

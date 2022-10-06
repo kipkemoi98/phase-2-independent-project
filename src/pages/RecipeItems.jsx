@@ -8,7 +8,7 @@ export default function RecipeItem() {
 
   const fetchData = async () => {
     const response = await axios.get(
-      "https://developer.edamam.com/edamam-docs-recipe-api"
+      "https://boiling-hollows-58510.herokuapp.com/recipe"
     );
     setRecipes(response.data);
   };

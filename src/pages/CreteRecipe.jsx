@@ -16,7 +16,7 @@ export default function CreteRecipe() {
       
     };
     const response = await fetch(
-      "https://developer.edamam.com/edamam-docs-recipe-api",
+      "https://boiling-hollows-58510.herokuapp.com/recipe",
       {
         method: "POST",
         headers: {
@@ -27,7 +27,9 @@ export default function CreteRecipe() {
     );
     const data = await response.json();
     console.log(data);
+    // if successful, redirect to the recipe page
   };
+//clear form after submit
     const clearForm = (e) => {
         e.target.name.value = "";
         e.target.ingredients.value = "";
@@ -37,7 +39,7 @@ export default function CreteRecipe() {
     }
   return (
     <div className="container">
-      <h1>Create Recipe Form</h1>
+      <h1>Create Recipe</h1>
       <form onSubmit={postRecipe } className="form-center">
         <label>Name:</label>
         <input type="text" name="name" />
