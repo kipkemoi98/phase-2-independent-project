@@ -1,11 +1,5 @@
-// import { useNavigate } from "react-router-dom";
 import "./CreateRecipe.css";
 export default function CreteRecipe() {
-  //post request to create a new recipe
-//   let nav = useNavigate();
-//   const routeChange = () => {
-//     nav("/recipes");
-//   };
   const postRecipe = async (e) => {
     e.preventDefault();
     const recipe = {
@@ -27,9 +21,7 @@ export default function CreteRecipe() {
     );
     const data = await response.json();
     console.log(data);
-    // if successful, redirect to the recipe page
   };
-//clear form after submit
     const clearForm = (e) => {
         e.target.name.value = "";
         e.target.ingredients.value = "";

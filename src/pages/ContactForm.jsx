@@ -8,7 +8,6 @@ export default function ContactForm() {
   const formStyles = {
     display: "flex",
     flexDirection: "column",
-    // alignItems: "center",
     rowGap: "5px",
     margin: '0 auto',
     width: '100%',
@@ -37,12 +36,10 @@ export default function ContactForm() {
   };
   const labelStyles = {
     width: "20%",
-    // height: "40px",
     textAlign: "center",
     borderRadius: "10px",
     border: "1px solid #000000",
     padding: "10px",
-    // margin: "5px",
     backgroundColor: "#000000",
     color: "white",
   };
