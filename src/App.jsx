@@ -1,4 +1,3 @@
-
 import Navbar from './components/Navbar';
 import { Route, Routes } from "react-router-dom";
 import "./index.css"
@@ -12,8 +11,8 @@ function App() {
     <div className='App'>
       <Navbar />
       <Routes>
-        <Route exact path='/' element={<HomePage />}></Route>
-        <Route exact path='/Add' element={<Recipe />} ></Route>
+        <Route exact path='/' element={<LandingPage />}></Route>
+        <Route exact path='/add' element={<CreteRecipe />} ></Route>
         <Route exact path='/recipes' element={<RecipeItems />} ></Route>
         <Route exact path='/contact' element={<ContactForm/>}></Route>
       </Routes>
