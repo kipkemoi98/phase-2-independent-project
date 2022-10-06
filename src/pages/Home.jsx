@@ -19,10 +19,7 @@ export default function LandingPage() {
         </button>
       </div>
       <div className="landing-page-image">
-        <img
-          src={process.env.PUBLIC_URL + "/assets/images/public/assets/images/istockphoto-1320857678-170667a.jpg"}
-          alt=""
-        />
+        <img src="" alt="" />
       </div>
     </div>
   );
