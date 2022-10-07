@@ -10,7 +10,7 @@ export default function CreteRecipe() {
       
     };
     const response = await fetch(
-      "https://boiling-hollows-58510.herokuapp.com/recipe",
+      "https://recipe-app-98.herokuapp.com/posts",
       {
         method: "POST",
         headers: {

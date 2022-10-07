@@ -19,8 +19,11 @@ export default function LandingPage() {
         </button>
       </div>
       <div className="landing-page-image">
-        <img src="" alt="" />
-      </div>
+      <img
+          src={process.env.PUBLIC_URL + "/assets/images/landing.svg"}
+          alt="recipe"
+        />
+                </div>
     </div>
   );
 }
