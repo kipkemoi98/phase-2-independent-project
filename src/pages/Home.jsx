@@ -8,21 +8,16 @@ export default function LandingPage() {
   return (
     <div className="landing-page">
       <div className="landing-page-content">
-        <h1>Welcome to Recipe App</h1>
+        <h1>Welcome to Menwear App</h1>
         <p>
-          This is a recipe app that allows you to create, and Read recipes
-          from others
+        At Eukos we have curated the latest and the coolest menswear for you to update your go-to wardrobe with better-fitting outfits.
         </p>
-        <p>Create Recipes by clicking the button.</p>
+        <p>Add more items by clicking the button.</p>
         <button className="btn" onClick={routeChange}>
-          Create Recipe
-        </button>
+          VIEW MORE </button>
       </div>
       <div className="landing-page-image">
-      <img
-          src={process.env.PUBLIC_URL + "/assets/images/landing.svg"}
-          alt="recipe"
-        />
+      
                 </div>
     </div>
   );

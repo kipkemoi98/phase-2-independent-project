@@ -1,16 +1,16 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import Recipes from "./Recipes";
+import fashions from "./Items";
 
-export default function RecipeItem() {
-  const [recipes, setRecipes] = useState([]);
+export default function FashionItem() {
+  const [recipes, setFashions] = useState([]);
   const [loading, setLoading] = useState(false);
 
   const fetchData = async () => {
     const response = await axios.get(
       "https://boiling-hollows-58510.herokuapp.com/recipe"
     );
-    setRecipes(response.data);
+    setFashions(response.data);
   };
   useEffect(() => {
     (async () => {
@@ -25,8 +25,8 @@ export default function RecipeItem() {
         <div>Loading...</div>
       ) : (
         <div>
-          {recipes.map((recipe) => (
-            <Recipes key={recipe.id} recipe={recipe} />
+          {fashions.map((fashion) => (
+            <fashions key={fashion.id} fashion={fashion} />
           ))}
         </div>
       )}
