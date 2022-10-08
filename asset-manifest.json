@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/phase-2-independent-project/static/css/main.b9c84f48.css",
-    "main.js": "/phase-2-independent-project/static/js/main.ca351285.js",
-    "index.html": "/phase-2-independent-project/index.html",
-    "main.b9c84f48.css.map": "/phase-2-independent-project/static/css/main.b9c84f48.css.map",
-    "main.ca351285.js.map": "/phase-2-independent-project/static/js/main.ca351285.js.map"
+    "main.css": "/react-gh-pages/static/css/main.b9c84f48.css",
+    "main.js": "/react-gh-pages/static/js/main.5dc4f1fd.js",
+    "index.html": "/react-gh-pages/index.html",
+    "main.b9c84f48.css.map": "/react-gh-pages/static/css/main.b9c84f48.css.map",
+    "main.5dc4f1fd.js.map": "/react-gh-pages/static/js/main.5dc4f1fd.js.map"
   },
   "entrypoints": [
     "static/css/main.b9c84f48.css",
-    "static/js/main.ca351285.js"
+    "static/js/main.5dc4f1fd.js"
   ]
 }
